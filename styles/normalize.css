@@ -232,14 +232,14 @@ select {
 /** 
  * Corrige la incapacidad de aplicar estilos a tipos sobre los que se puede hacer clic en iOS y Safari. 
  */
-
+/*
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
     -webkit-appearance: button;
 }
-
+*/
 
 /** 
  * Elimina el borde interior y el relleno en Firefox. 
@@ -346,7 +346,7 @@ textarea {
  */
 
 [type="search"] {
-    -webkit-appearance: textfield;
+    /*-webkit-appearance: textfield;*/
     /* 1 */
     outline-offset: -2px;
     /* 2 */
