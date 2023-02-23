@@ -1,0 +1,23 @@
+@keyframes rotation {
+    from {
+      transform: rotate(15deg);
+    }
+    to {
+      transform: rotate(375deg);
+    }
+  }
+
+.header__square {
+    height: 568px;
+    width: 568px;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    background-color: #2F80ED;
+    z-index: 1;
+    transform: rotate(15deg);
+  }
+  
+  .header:hover .header__square{
+    animation: rotation 20s normal ease-in-out infinite;
+  }

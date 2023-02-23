@@ -1,0 +1,8 @@
+.table {
+    max-width: 1100px;
+    margin-top: 60px;
+    row-gap: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
