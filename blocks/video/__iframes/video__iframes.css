@@ -5,6 +5,6 @@
     margin-right: auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: row;
     row-gap: 20px;
   }
