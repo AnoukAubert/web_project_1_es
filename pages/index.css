@@ -65,3 +65,4 @@
 @import url(../blocks/techniques/cards/cards.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 @import url(../blocks/video/video.css);
+@import url(../styles/normalize.css);
